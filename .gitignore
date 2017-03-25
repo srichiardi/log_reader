@@ -30,6 +30,9 @@ var/
 *.manifest
 *.spec
 
+# PyDev files
+.pydevproject
+
 # Installer logs
 pip-log.txt
 pip-delete-this-directory.txt
@@ -87,3 +90,26 @@ ENV/
 
 # Rope project settings
 .ropeproject
+
+### Eclipse ###
+
+.metadata
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+.recommenders
+
+# Eclipse Core
+.project
+
+# External tool builders
+.externalToolBuilders/
+
+# Locally stored "Eclipse launch configurations"
+*.launch
